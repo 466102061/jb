@@ -9,7 +9,7 @@
 	},
 	"miniprogramRoot": "./dist/",
 	"compileType": "miniprogram",
-	"appid": "wx125453059cc75dca",
+	"appid": "wx********",
 	"projectname": "bjm",
 	"scripts": {
 		"beforeCompile": "npm run dev",
