@@ -1,6 +1,6 @@
-## 笨鲸小程序与h5混合开发说明
+## bj小程序与h5混合开发说明
 
-> A Mpvue project of BenJing
+> A Mpvue project of bj
 
 ### 1.启动项目
 
