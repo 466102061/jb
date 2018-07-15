@@ -1,0 +1,23 @@
+stages:
+  - build_develop
+  - build_master
+
+cache:
+  paths:
+  - node_modules/
+
+build_develop:
+  stage: build_develop
+  only:
+      - develop
+  script:
+    - npm run buildTestH5
+    - rsync -avp distH5  www@193.112.105.71:/data/www/bjm/
+
+build_master:
+  stage: build_master
+  only:
+      - master
+  script:
+    - npm run buildH5
+    - rsync -avp distH5  www@123.207.228.146:/data/www/bjm/
